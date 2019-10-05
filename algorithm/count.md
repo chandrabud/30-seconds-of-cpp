@@ -8,6 +8,7 @@
 
     // determine how many integers in a std::vector match a target value.
     int target1 = 3;
+    std::sort(v.begin(),v.end());
     int num_items1 = std::count(v.begin(), v.end(), target1);
     std::cout << "number: " << target1 << " count: " << num_items1 << '\n';
 ```
